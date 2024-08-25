@@ -18,7 +18,7 @@ import rahulshettyacademy.pageObjects.ProductCataloguePage;
 public class SubmitOrderTest extends BaseTest{
 
 	//String productName = "ZARA COAT 3";
-
+	//New comments added for demo of CI CD
 	@Test(dataProvider="getData" , groups= {"Purchase"})
 	public void submitOrder(HashMap<String,String> input) throws IOException, InterruptedException
 	{	
